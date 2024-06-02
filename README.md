@@ -1,6 +1,6 @@
 # PoliSee
 ### Deskripsi Aplikasi
-Aplikasi PoliSee merupakan sebuah aplikasi yang dibuat untuk memperlihatkan daftar pejabat politik dari berbagai negara yang berasal dari API yang digunakan. Aplikasi ini akan membantu pengguna untuk menemukan politikus yang mereka sukai berdasarkan profile dari politikus tersebut.
+Aplikasi PoliSee merupakan sebuah aplikasi yang dibuat untuk memperlihatkan daftar pejabat politik dari berbagai negara yang berasal dari API yang digunakan. Aplikasi ini akan membantu pengguna untuk menemukan informasi mengenai politikus yang mereka sukai berdasarkan profile dari politikus tersebut.
 
 ### Fitur-fitur Aplikasi
 1. Menampilkan daftar politikus: pada fitur ini kita akan diperlihatkan daftar politikus ketika baru masuk ke aplikasi.
