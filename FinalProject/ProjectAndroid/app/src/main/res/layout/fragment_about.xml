@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.AboutFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/color6"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Politicians See"
+                android:textSize="43sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/font"
+                android:textStyle="italic"
+                android:layout_marginLeft="10dp"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginTop="70dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/image1"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pejabat politik adalah orang yang menduduki jabatan tertentu dalam sistem pemerintahan dan memiliki kewenangan untuk membuat dan melaksanakan kebijakan publik. Pejabat politik biasanya dipilih melalui proses demokrasi, seperti pemilihan umum atau penunjukan oleh lembaga yang berwenang."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:justificationMode="inter_word"/>
+
+        <Button
+            android:id="@+id/btn_selengkapnya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selengkapnya..."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/color6"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="645dp"/>
+
+    </FrameLayout>
+
+    <include
+        layout="@layout/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+</LinearLayout>

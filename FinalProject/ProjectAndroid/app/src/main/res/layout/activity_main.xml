@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Politicians See"
+        android:textColor="@color/white"
+        android:textSize="63sp"
+        android:fontFamily="@font/font"
+        android:layout_marginTop="120dp"
+        android:textStyle="italic"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="310dp"
+        android:src="@drawable/image2"
+        android:layout_marginTop="250dp"/>
+
+    <Button
+        android:id="@+id/btnmasuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's Go"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/color5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="630dp"/>
+
+</RelativeLayout>
